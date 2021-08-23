@@ -1,0 +1,136 @@
+html{
+    scroll-behavior: smooth !important;
+}
+body{
+    background-color: aliceblue;
+	
+}
+
+#name{
+	text-decoration: none;
+    padding: 25px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bolder;
+    color:#8B278C;
+	background-color:aliceblue;
+	margin-top:0px;
+    
+}
+.topnav {
+    background-color: antiquewhite;
+    overflow: hidden;
+    margin:0px;
+    height:40px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+      background-color: antiquewhite;
+    color: #603f83ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    align-self: center;
+    margin:5px 0px;
+    padding: 30px 30px;
+    left:50%;
+    top:50%;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #603f83ff;
+    color: antiquewhite;
+    
+  }
+
+  /* Add a color to the active/current link */
+
+  #about{
+      display: flex;
+      flex-direction: row;
+      flex: auto;
+      margin-bottom: 80px;
+  }
+  .text{
+      width: 60vw;
+      padding: 25px 30px;
+    
+      
+  }
+  .photo{
+      width: 40vw;
+      height: auto;
+        padding: 20px 30px;
+  }
+  .photo:hover{
+      filter: opacity(.6);
+  }
+  img{
+      width: 38vw;
+      height: auto; 
+      min-width: 250px;
+  }
+  p{
+      font-size: 35px;
+      font-family: ''Times New Roman', Times, serif;';
+      font-weight: lighter;
+      text-align: center;
+      padding-top: 30px;
+      margin-bottom: 30px;
+  }
+b{
+    font-size: 60px;
+    margin: 30px 0px;
+    padding-bottom: 40px;
+    color: #8b278c;
+}
+.title{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.me{
+    text-align:justify;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin: 30px;
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+#skills p{
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: start;
+    padding: 0px 20px;
+}
+
+/* Container for skill bars */
+.container {
+    margin:20px;
+  width: 60%; /* Full width */
+  background-color: rgb(255, 255, 255); /* White background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+
+}
+.html {width: 80%; background-color: #e34c26;} /* Green */
+.css {width: 65%; background-color: #2965f1 ;} /* Blue */
+.wp {width: 85%; background-color: #00749C; margin-bottom: 13vh;} /* Red */
